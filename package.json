@@ -1,0 +1,45 @@
+{
+  "name": "outsource_employer",
+  "version": "1.0.0",
+  "description": "Outsource Client Service",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "author": "Outsource",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "check-password-strength": "^2.0.5",
+    "cloudinary": "^1.28.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "google-auth-library": "^7.12.0",
+    "helmet": "^4.6.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.8",
+    "otp-generator": "^4.0.0",
+    "pino": "^8.3.0",
+    "pino-pretty": "^8.1.0",
+    "qrcode": "^1.5.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": "https://github.com/drsimplegraffiti/awasource-backend.git"
+}
